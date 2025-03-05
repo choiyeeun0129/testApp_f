@@ -82,7 +82,7 @@ extension on _MotPageState {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Icon(Icons.account_circle_rounded, size: 48, color: Color(0xffD8D9D9)),
+            const Icon(Icons.account_circle_rounded, size: 48, color: Color(0xff2155A8)),
             const WidthBox(16),
             Expanded(child: BasicText(code.name, 16, 28, FontWeight.w400)),
             const WidthBox(16),

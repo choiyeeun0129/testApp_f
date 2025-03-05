@@ -26,7 +26,7 @@ Future<void> initConfiguration() async {
 
 // 상태 바 색상 설정 (스플래시 배경과 동일한 색상으로 설정)
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: Color(0xFFE3E3E3),  // ✅ 상태 바 색상을 스플래시 배경과 동일하게 설정
+    statusBarColor: Color(0xffffffff),  // ✅ 상태 바 색상을 스플래시 배경과 동일하게 설정
     // statusBarIconBrightness: Brightness.dark, // ✅ 상태 바 아이콘 색상 (어두운 배경이면 Light 설정)
   ));
 

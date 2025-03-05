@@ -99,7 +99,7 @@ extension on _SearchResultPageState {
   }
 
   Widget userItem(User user, int index) {
-    Color backgroundColor = index.isEven ? const Color(0xffC8C8C8) : const Color(0xffF7F8FA);
+    Color backgroundColor = index.isEven ? const Color(0xffEBEDFF) : const Color(0xfffffff);
     return GestureDetector(
       onTap: () => _onClickUser(user),
       child: Container(

@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:gnu_mot_t/bloc/home/home_bloc.dart';
 import 'package:gnu_mot_t/component/basic_container.dart';
 import 'package:gnu_mot_t/component/basic_text.dart';
@@ -112,7 +110,7 @@ extension on _HomePageState {
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
-                                Icon(Icons.account_circle_rounded, size: 48, color: Color(0xffD8D9D9)),
+                                Icon(Icons.account_circle_rounded, size: 48, color: Color(0xff2155A8)),
                                 WidthBox(16),
                                 Expanded(child: BasicText("MOT 전체", 16, 28, FontWeight.w400)),
                                 WidthBox(16),
@@ -174,7 +172,7 @@ extension on _HomePageState {
         child: Row(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Icon(Icons.account_circle_rounded, size: 48, color: Color(0xffD8D9D9)),
+            const Icon(Icons.account_circle_rounded, size: 48, color: Color(0xff2155A8)),
             const WidthBox(16),
             Expanded(child: BasicText(text, 16, 28, FontWeight.w400)),
             const WidthBox(16),

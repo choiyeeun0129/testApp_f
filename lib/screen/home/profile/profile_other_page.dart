@@ -324,7 +324,7 @@ extension on _ProfileOtherPageState {
                           padding: const EdgeInsets.symmetric(horizontal: 15),
                           alignment: Alignment.center,
                           decoration: BoxDecoration(
-                            color: const Color(0xFF6E6E6E),
+                            color: const Color(0xFF2155A8),
                             borderRadius: BorderRadius.circular(10),
                           ),
                           child:  BasicText(user.infoTitle, 20, 28, FontWeight.w700, textColor: const Color(0xffEAFAFF)),

@@ -1,4 +1,5 @@
 import 'dart:developer';
+import 'dart:io';
 
 import 'package:gnu_mot_t/api/api_client.dart';
 import 'package:gnu_mot_t/api/auth/auth_service.dart';
@@ -38,7 +39,15 @@ abstract class APIService {
   }
 
   // String get baseUrl => "https://pbnt.kr/gnumot";
-  String get baseUrl => "http://10.0.2.2:16001";
+  String get baseUrl => "http://192.168.219.169:16001";
+
+  // String get baseUrl {
+  //   if (Platform.isAndroid) {
+  //     return "http://10.0.2.2:16001";  // 에뮬레이터 실행
+  //   } else {
+  //     return "http://192.168.219.169:16001";
+  //   }
+  // }
 
   ApiClient get client => ApiClient();
 

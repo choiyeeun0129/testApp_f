@@ -2,9 +2,9 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:flutter/services.dart';
-import 'package:gnu_mot_t/app.dart';
+import 'package:testApp/app.dart';
 import 'package:flutter/material.dart';
-import 'package:gnu_mot_t/util/my_http_overrides.dart';
+import 'package:testApp/util/my_http_overrides.dart';
 import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 

@@ -1,11 +1,11 @@
 import 'dart:ui';
 
-import 'package:gnu_mot_t/component/basic_text.dart';
-import 'package:gnu_mot_t/component/common/height_box.dart';
-import 'package:gnu_mot_t/component/common/navigation.dart';
-import 'package:gnu_mot_t/constant/colors.dart';
+import 'package:testApp/component/basic_text.dart';
+import 'package:testApp/component/common/height_box.dart';
+import 'package:testApp/component/common/navigation.dart';
+import 'package:testApp/constant/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:gnu_mot_t/constant/term_text.dart';
+import 'package:testApp/constant/term_text.dart';
 
 class SettingTermPage extends StatefulWidget {
   const SettingTermPage({super.key});

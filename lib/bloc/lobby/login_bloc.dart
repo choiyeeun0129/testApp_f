@@ -3,8 +3,8 @@ import 'dart:developer';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 // import 'package:flutter_naver_login/flutter_naver_login.dart';
-import 'package:gnu_mot_t/api/auth/auth_service.dart';
-import 'package:gnu_mot_t/manager/info_manager.dart';
+import 'package:testApp/api/auth/auth_service.dart';
+import 'package:testApp/manager/info_manager.dart';
 import 'package:kakao_flutter_sdk/kakao_flutter_sdk.dart';
 
 abstract class LoginEvent {}

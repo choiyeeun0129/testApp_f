@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gnu_mot_t/api/code/code_service.dart';
-import 'package:gnu_mot_t/model/code.dart';
+import 'package:testApp/api/code/code_service.dart';
+import 'package:testApp/model/code.dart';
 
 abstract class MotEvent {}
 class InitMot extends MotEvent {}

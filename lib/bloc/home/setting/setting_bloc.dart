@@ -1,7 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gnu_mot_t/api/auth/auth_service.dart';
+import 'package:testApp/api/auth/auth_service.dart';
 
 abstract class SettingEvent {}
 class WithdrawSetting extends SettingEvent {}

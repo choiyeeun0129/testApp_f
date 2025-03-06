@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gnu_mot_t/manager/info_manager.dart';
-import 'package:gnu_mot_t/manager/storage_manager.dart';
+import 'package:testApp/manager/info_manager.dart';
+import 'package:testApp/manager/storage_manager.dart';
 
 abstract class SplashEvent {}
 class InitSplash extends SplashEvent {}

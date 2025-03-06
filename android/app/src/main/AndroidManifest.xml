@@ -16,7 +16,7 @@
         android:minSdkVersion="33" />
 
     <application
-        android:label="gnu_mot"
+        android:label="testApp"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_mot"
         android:roundIcon="@mipmap/ic_mot"

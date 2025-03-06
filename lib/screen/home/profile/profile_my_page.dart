@@ -1,19 +1,19 @@
-import 'package:gnu_mot_t/bloc/home/profile/profile_my_bloc.dart';
-import 'package:gnu_mot_t/component/basic/basic_button.dart';
-import 'package:gnu_mot_t/component/basic_container.dart';
-import 'package:gnu_mot_t/component/basic_text.dart';
-import 'package:gnu_mot_t/component/common/asset_widget.dart';
-import 'package:gnu_mot_t/component/common/height_box.dart';
-import 'package:gnu_mot_t/component/common/navigation.dart';
-import 'package:gnu_mot_t/component/common/width_box.dart';
-import 'package:gnu_mot_t/component/profile_info_widget.dart';
-import 'package:gnu_mot_t/constant/assets.dart';
-import 'package:gnu_mot_t/constant/colors.dart';
+import 'package:testApp/bloc/home/profile/profile_my_bloc.dart';
+import 'package:testApp/component/basic/basic_button.dart';
+import 'package:testApp/component/basic_container.dart';
+import 'package:testApp/component/basic_text.dart';
+import 'package:testApp/component/common/asset_widget.dart';
+import 'package:testApp/component/common/height_box.dart';
+import 'package:testApp/component/common/navigation.dart';
+import 'package:testApp/component/common/width_box.dart';
+import 'package:testApp/component/profile_info_widget.dart';
+import 'package:testApp/constant/assets.dart';
+import 'package:testApp/constant/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:gnu_mot_t/model/user.dart';
-import 'package:gnu_mot_t/router/app_routes.dart';
+import 'package:testApp/model/user.dart';
+import 'package:testApp/router/app_routes.dart';
 
 class ProfileMyPage extends StatefulWidget {
   const ProfileMyPage({super.key});

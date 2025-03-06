@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
-import 'package:gnu_mot_t/api/api_service.dart';
-import 'package:gnu_mot_t/api/user/user_api.dart';
-import 'package:gnu_mot_t/model/error.dart';
-import 'package:gnu_mot_t/model/pagination.dart';
-import 'package:gnu_mot_t/model/user.dart';
+import 'package:testApp/api/api_service.dart';
+import 'package:testApp/api/user/user_api.dart';
+import 'package:testApp/model/error.dart';
+import 'package:testApp/model/pagination.dart';
+import 'package:testApp/model/user.dart';
 
 final userService = UserService();
 class UserService extends APIService implements UserAPI {

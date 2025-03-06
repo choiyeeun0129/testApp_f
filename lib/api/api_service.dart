@@ -1,10 +1,10 @@
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:gnu_mot_t/api/api_client.dart';
-import 'package:gnu_mot_t/api/auth/auth_service.dart';
-import 'package:gnu_mot_t/manager/info_manager.dart';
-import 'package:gnu_mot_t/manager/storage_manager.dart';
+import 'package:testApp/api/api_client.dart';
+import 'package:testApp/api/auth/auth_service.dart';
+import 'package:testApp/manager/info_manager.dart';
+import 'package:testApp/manager/storage_manager.dart';
 import 'package:http/http.dart' as http;
 
 abstract class APIService {

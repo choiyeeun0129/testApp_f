@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
-import 'package:gnu_mot_t/api/auth/auth_service.dart';
-import 'package:gnu_mot_t/manager/info_manager.dart';
+import 'package:testApp/api/auth/auth_service.dart';
+import 'package:testApp/manager/info_manager.dart';
 import 'package:http/http.dart' as http;
-import 'package:gnu_mot_t/api/api_service.dart';
-import 'package:gnu_mot_t/api/file/file_api.dart';
-import 'package:gnu_mot_t/model/error.dart';
+import 'package:testApp/api/api_service.dart';
+import 'package:testApp/api/file/file_api.dart';
+import 'package:testApp/model/error.dart';
 import 'package:mime/mime.dart';
 import 'package:http_parser/http_parser.dart';
 

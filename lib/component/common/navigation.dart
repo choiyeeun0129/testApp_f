@@ -1,8 +1,8 @@
-import 'package:gnu_mot_t/component/basic_text.dart';
-import 'package:gnu_mot_t/component/common/asset_widget.dart';
+import 'package:testApp/component/basic_text.dart';
+import 'package:testApp/component/common/asset_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:gnu_mot_t/constant/assets.dart';
-import 'package:gnu_mot_t/constant/colors.dart';
+import 'package:testApp/constant/assets.dart';
+import 'package:testApp/constant/colors.dart';
 
 class Navigation extends StatefulWidget implements PreferredSizeWidget {
   final Color? backgroundColor;

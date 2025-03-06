@@ -1,9 +1,9 @@
 import 'dart:developer';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gnu_mot_t/api/user/user_service.dart';
-import 'package:gnu_mot_t/model/pagination.dart';
-import 'package:gnu_mot_t/model/user.dart';
+import 'package:testApp/api/user/user_service.dart';
+import 'package:testApp/model/pagination.dart';
+import 'package:testApp/model/user.dart';
 
 abstract class GroupEvent {}
 class LoadGroup extends GroupEvent {

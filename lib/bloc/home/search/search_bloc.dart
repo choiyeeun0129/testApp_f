@@ -1,9 +1,9 @@
 import 'dart:developer';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gnu_mot_t/api/code/code_service.dart';
-import 'package:gnu_mot_t/model/code.dart';
-import 'package:gnu_mot_t/model/user.dart';
+import 'package:testApp/api/code/code_service.dart';
+import 'package:testApp/model/code.dart';
+import 'package:testApp/model/user.dart';
 
 abstract class SearchEvent {}
 class InitSearch extends SearchEvent {}

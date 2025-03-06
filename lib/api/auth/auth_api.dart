@@ -1,4 +1,4 @@
-import 'package:gnu_mot_t/model/user.dart';
+import 'package:testApp/model/user.dart';
 
 abstract class AuthAPI {
   // 로그인

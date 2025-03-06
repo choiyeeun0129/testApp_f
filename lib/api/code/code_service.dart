@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'dart:developer';
-import 'package:gnu_mot_t/api/api_service.dart';
-import 'package:gnu_mot_t/api/code/code_api.dart';
-import 'package:gnu_mot_t/model/code.dart';
-import 'package:gnu_mot_t/model/error.dart';
-import 'package:gnu_mot_t/util/extensions.dart';
+import 'package:testApp/api/api_service.dart';
+import 'package:testApp/api/code/code_api.dart';
+import 'package:testApp/model/code.dart';
+import 'package:testApp/model/error.dart';
+import 'package:testApp/util/extensions.dart';
 
 final codeService = CodeService();
 class CodeService extends APIService implements CodeAPI {

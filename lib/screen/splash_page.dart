@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
-import 'package:gnu_mot_t/bloc/splash_bloc.dart';
-import 'package:gnu_mot_t/component/common/asset_widget.dart';
-import 'package:gnu_mot_t/constant/assets.dart';
-import 'package:gnu_mot_t/constant/colors.dart';
-import 'package:gnu_mot_t/router/app_routes.dart';
+import 'package:testApp/bloc/splash_bloc.dart';
+import 'package:testApp/component/common/asset_widget.dart';
+import 'package:testApp/constant/assets.dart';
+import 'package:testApp/constant/colors.dart';
+import 'package:testApp/router/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

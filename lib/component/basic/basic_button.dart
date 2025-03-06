@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gnu_mot_t/component/basic_container.dart';
-import 'package:gnu_mot_t/component/basic_text.dart';
+import 'package:testApp/component/basic_container.dart';
+import 'package:testApp/component/basic_text.dart';
 
 class BasicButton extends StatelessWidget {
   final String text;

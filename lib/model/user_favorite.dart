@@ -1,4 +1,4 @@
-import 'package:gnu_mot_t/model/code.dart';
+import 'package:testApp/model/code.dart';
 
 class UserFavorite {
   final int id;

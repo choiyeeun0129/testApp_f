@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import 'package:gnu_mot_t/manager/storage_manager.dart';
-import 'package:gnu_mot_t/model/user.dart';
-import 'package:gnu_mot_t/router/app_router.dart';
-import 'package:gnu_mot_t/router/app_routes.dart';
+import 'package:testApp/manager/storage_manager.dart';
+import 'package:testApp/model/user.dart';
+import 'package:testApp/router/app_router.dart';
+import 'package:testApp/router/app_routes.dart';
 
 InfoService infoManager = InfoManager();
 abstract class InfoService {

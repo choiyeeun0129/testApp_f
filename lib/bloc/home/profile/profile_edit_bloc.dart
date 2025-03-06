@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gnu_mot_t/api/auth/auth_service.dart';
-import 'package:gnu_mot_t/api/file/file_service.dart';
+import 'package:testApp/api/auth/auth_service.dart';
+import 'package:testApp/api/file/file_service.dart';
 
 abstract class ProfileEditEvent {}
 class DoProfileEdit extends ProfileEditEvent {

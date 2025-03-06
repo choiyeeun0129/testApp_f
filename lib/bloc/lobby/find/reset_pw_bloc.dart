@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gnu_mot_t/api/auth/auth_service.dart';
-import 'package:gnu_mot_t/manager/storage_manager.dart';
+import 'package:testApp/api/auth/auth_service.dart';
+import 'package:testApp/manager/storage_manager.dart';
 
 abstract class ResetPwEvent {}
 class ReResetPw extends ResetPwEvent {

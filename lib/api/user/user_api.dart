@@ -1,6 +1,6 @@
 import 'dart:io';
-import 'package:gnu_mot_t/model/pagination.dart';
-import 'package:gnu_mot_t/model/user.dart';
+import 'package:testApp/model/pagination.dart';
+import 'package:testApp/model/user.dart';
 
 abstract class UserAPI {
   // 사용자 관련 API

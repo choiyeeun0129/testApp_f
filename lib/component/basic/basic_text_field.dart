@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:gnu_mot_t/constant/colors.dart';
+import 'package:testApp/constant/colors.dart';
 
 class BasicTextField extends StatefulWidget {
   final String hintText;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gnu_mot_t/component/common/width_box.dart';
-import 'package:gnu_mot_t/constant/colors.dart';
+import 'package:testApp/component/common/width_box.dart';
+import 'package:testApp/constant/colors.dart';
 
 class ProfileInfoWidget extends StatelessWidget {
   final IconData icon;

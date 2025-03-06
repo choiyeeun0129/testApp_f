@@ -1,4 +1,4 @@
-package com.pbnt.gnu_mot
+package com.pbnt.testapp
 
 import io.flutter.embedding.android.FlutterActivity
 

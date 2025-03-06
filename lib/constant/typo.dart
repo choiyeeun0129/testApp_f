@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:gnu_mot_t/constant/colors.dart';
+import 'package:testApp/constant/colors.dart';
 
 class Typo {
   Typo._();

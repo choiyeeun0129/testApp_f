@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'package:get/get.dart';
-import 'package:gnu_mot_t/api/api_service.dart';
-import 'package:gnu_mot_t/api/auth/auth_api.dart';
-import 'package:gnu_mot_t/manager/storage_manager.dart';
-import 'package:gnu_mot_t/model/error.dart';
-import 'package:gnu_mot_t/model/user.dart';
-import 'package:gnu_mot_t/util/extensions.dart';
+import 'package:testApp/api/api_service.dart';
+import 'package:testApp/api/auth/auth_api.dart';
+import 'package:testApp/manager/storage_manager.dart';
+import 'package:testApp/model/error.dart';
+import 'package:testApp/model/user.dart';
+import 'package:testApp/util/extensions.dart';
 
 
 final authService = AuthService();

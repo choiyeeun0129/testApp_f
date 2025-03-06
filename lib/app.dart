@@ -1,7 +1,7 @@
-import 'package:gnu_mot_t/constant/colors.dart';
-import 'package:gnu_mot_t/screen/splash_page.dart';
-import 'package:gnu_mot_t/router/app_router.dart';
-import 'package:gnu_mot_t/util/navigator_key.dart';
+import 'package:testApp/constant/colors.dart';
+import 'package:testApp/screen/splash_page.dart';
+import 'package:testApp/router/app_router.dart';
+import 'package:testApp/util/navigator_key.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';

@@ -1,10 +1,10 @@
-import 'package:gnu_mot_t/component/basic_container.dart';
-import 'package:gnu_mot_t/component/basic_text.dart';
-import 'package:gnu_mot_t/component/common/height_box.dart';
-import 'package:gnu_mot_t/component/common/navigation.dart';
-import 'package:gnu_mot_t/constant/colors.dart';
+import 'package:testApp/component/basic_container.dart';
+import 'package:testApp/component/basic_text.dart';
+import 'package:testApp/component/common/height_box.dart';
+import 'package:testApp/component/common/navigation.dart';
+import 'package:testApp/constant/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:gnu_mot_t/router/app_routes.dart';
+import 'package:testApp/router/app_routes.dart';
 
 class FindPage extends StatefulWidget {
   const FindPage({super.key});

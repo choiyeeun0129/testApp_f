@@ -179,12 +179,11 @@ extension on _FindIdPageState {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                SizedBox(
-                  width: 150,
+                Expanded(
                   child: BasicButton("확인", _onClickCode),
                 ),
-                SizedBox(
-                  width: 180,
+                const SizedBox(width: 10), // 버튼 간 간격 조절
+                Expanded(
                   child: BasicButton("인증번호 재전송", _onClickRe),
                 ),
               ],

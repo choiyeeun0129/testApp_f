@@ -338,7 +338,7 @@ extension on _GroupPageState {
       );
   }
   Widget userItem(User user, int index) {
-    Color backgroundColor = index.isEven ? const Color(0xffEBEDFF) : const Color(0xffF7F8FA);
+    Color backgroundColor = index.isEven ? const Color(0xffEBEDFF) : const Color(0xfffffff);
     bool isChecked = (selectedUserList.indexWhere((selectedUser) => selectedUser.id == user.id) != -1);
     IconData checkIcon = isChecked ? Icons.check_box_rounded : Icons.check_box_outline_blank_rounded;
     bool isSelectable =

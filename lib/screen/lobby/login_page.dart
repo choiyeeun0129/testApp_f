@@ -186,16 +186,16 @@ extension on _LoginPageState {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        GestureDetector(
-                          onTap: () {},
-                          child: const BasicText(
-                            "회원가입",
-                            14,
-                            20,
-                            FontWeight.w400,
-                            textColor: Color(0xff323142),
-                          ),
-                        ),
+                        // GestureDetector(
+                        //   onTap: () {},
+                        //   child: const BasicText(
+                        //     "회원가입",
+                        //     14,
+                        //     20,
+                        //     FontWeight.w400,
+                        //     textColor: Color(0xff323142),
+                        //   ),
+                        // ),
                         GestureDetector(
                           onTap: _onClickFind,
                           child: const BasicText(

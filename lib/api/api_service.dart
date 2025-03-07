@@ -40,6 +40,8 @@ abstract class APIService {
 
   // String get baseUrl => "https://pbnt.kr/gnumot";
   String get baseUrl => "http://192.168.219.169:16001";
+  // String get baseUrl => "http://127.0.0.1:16001";
+
 
   // String get baseUrl {
   //   if (Platform.isAndroid) {

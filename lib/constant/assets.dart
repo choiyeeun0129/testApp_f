@@ -5,7 +5,6 @@ class Assets {
   /**
    * Icon
    */
-  static const GNU_MOT_image = 'GNU_MOT_image.png';
   static const pbnt_image = 'pbnt.png';
   static const ill_mot = 'ill_mot.png';
   static const ill_welcome = 'ill_welcome.png';

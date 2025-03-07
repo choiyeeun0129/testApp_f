@@ -102,6 +102,7 @@ extension on _TermPageState {
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(15),
+                border: Border.all(color: Colors.black, width: 1)
             ),
             height: 240,
             child: SingleChildScrollView(

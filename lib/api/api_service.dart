@@ -39,7 +39,7 @@ abstract class APIService {
   }
 
   // String get baseUrl => "https://pbnt.kr/gnumot";
-  String get baseUrl => "http://192.168.219.63:16001";
+  String get baseUrl => "http://182.229.224.143:16002";
   // String get baseUrl => "http://127.0.0.1:16001";
 
 

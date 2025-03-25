@@ -320,11 +320,21 @@ extension on _ProfileEditPageState {
                                   child: ClipRRect(
                                     borderRadius: BorderRadius.circular(360),
                                     // child: AssetWidget(user.profileImage ?? Assets.ic_account, width: 160, height: 160, fit: BoxFit.cover),
-                                    child: (_file != null) // 사용자가 새로 선택한 이미지가 있으면 사용
-                                        ? Image.file(_file!, fit: BoxFit.cover)
-                                        : (widget.user.profileImage != null && widget.user.profileImage!.isNotEmpty && !isDeleted)
-                                        ? AssetWidget(widget.user.profileImage!, width: 160, height: 160, fit: BoxFit.cover) // 기존 사진 유지
-                                        : AssetWidget(Assets.ic_account, width: 160, height: 160, fit: BoxFit.cover), // 기본 이미지 적용
+                                    child: Builder(
+                                      builder: (_) {
+                                        print("🔥 프로필 이미지: ${widget.user.profileImage}");
+
+                                        if (_file != null) {
+                                          return Image.file(_file!, fit: BoxFit.cover);
+                                        } else if (widget.user.profileImage != null &&
+                                            widget.user.profileImage!.isNotEmpty &&
+                                            !isDeleted) {
+                                          return AssetWidget(widget.user.profileImage!, width: 160, height: 160, fit: BoxFit.cover);
+                                        } else {
+                                          return AssetWidget(Assets.ic_account, width: 160, height: 160, fit: BoxFit.cover);
+                                        }
+                                      },
+                                    ),
                                   ),
                                 ),
                                 Positioned(

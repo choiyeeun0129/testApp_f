@@ -81,11 +81,22 @@ class User {
 
   factory User.fromJson(Map<String, dynamic> json) {
     String? profileImage;
-    if(json["imageFile"] != null){
-      if(json["imageFile"]["fileName"] != null){
-        profileImage = "https://pbnt.kr/upload/${json["imageFile"]["fileName"]}";
+    if (json["imageFile"] != null) {
+      final fileName = json["imageFile"]["fileName"];
+      if (fileName != null) {
+        profileImage = "http://182.229.224.143/upload/testapp/$fileName";
       }
     }
+    //원래 코드
+    // if(json["imageFile"] != null){
+    //   if(json["imageFile"]["fileName"] != null){
+    //     // profileImage = "http://182.229.224.143:16002/upload/${json["imageFile"]["fileName"]}";
+    //     profileImage = "http://182.229.224.143:16002/upload/testapp/${json["imageFile"]["fileName"]}";
+    //   }
+    // }
+
+
+
     return User(
       id: json["id"],
       loginId: json["loginId"],

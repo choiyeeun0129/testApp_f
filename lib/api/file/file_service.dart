@@ -43,6 +43,8 @@ class FileService extends APIService implements FileAPI {
       if (response.statusCode == 200) {
         final jsonBody = json.decode(response.body);
 
+        log("🔥 업로드 응답: $jsonBody");
+
         if (jsonBody['success'] == false) {
           throw MultiPartError(streamedResponse);
         }

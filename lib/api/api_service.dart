@@ -38,18 +38,10 @@ abstract class APIService {
     };
   }
 
-  // String get baseUrl => "https://pbnt.kr/gnumot";
-  String get baseUrl => "http://182.229.224.143:16002";
-  // String get baseUrl => "http://127.0.0.1:16001";
-
-
-  // String get baseUrl {
-  //   if (Platform.isAndroid) {
-  //     return "http://10.0.2.2:16001";  // 에뮬레이터 실행
-  //   } else {
-  //     return "http://192.168.219.169:16001";
-  //   }
-  // }
+  // String get baseUrl => "https://pbnt.kr/testapp/api"; //배포
+  String get baseUrl => "http://182.229.224.143:16002"; //개발서버
+  // String get baseUrl => "http://192.168.219.150:16001"; //로컬서버
+  // String get baseUrl => "http://127.0.0.1:16001"; // ios 애뮬레이터
 
   ApiClient get client => ApiClient();
 

@@ -34,10 +34,16 @@ class ProfileEditBloc extends Bloc<ProfileEditEvent, ProfileEditState> {
       if(event.file != null){
         File file = event.file!;
         int id = await fileService.postUpload(file: file);
+        print("😍Uploaded File ID: $id"); // 파일 ID 확인
         await authService.postProfileImage(id: id);
       }
 
       await authService.postMyInfo(body: event.body);
+
+      // ✅ 프로필 정보 최신화: 새로 반영된 이미지 포함된 User 정보 받아오기
+      final updatedUser = await authService.getMyInfo();
+      print("🔥 최신 프로필 파일명: ${updatedUser.profileImage}");
+
       emit(ProfileEditDone("프로필이 수정되었습니다."));
     } catch (e) {
       emit(ProfileEditDefault(message: e.toString()));
